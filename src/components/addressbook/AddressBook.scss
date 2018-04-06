@@ -1,0 +1,24 @@
+@import "~bpk-mixins";
+
+.address-book{
+  text-align: left;
+  padding: 20px;
+}
+.address-book > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 60px;
+}
+
+.address-book > div > *{
+    padding: 10px;
+}
+
+.address-book > div >input{
+    width: 50%;
+}
+
+.network-check-filter{
+  margin-top: 6px;
+}
